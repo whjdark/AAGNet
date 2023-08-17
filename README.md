@@ -9,7 +9,7 @@ Machining feature recognition (MFR) is an essential step in computer-aided proce
 
 This paper proposes a novel GNN model, named AAGNet, which is designed to perform multi-task machining feature recognition using topological, geometric, and extended attributes from neutral B-Rep models. AAGNet comprises three main components: an input encoder, a graph encoder, and a multi-task head, as depicted below. 
 
-![The architecture of the AAGNET.](docs/imgs/AAGNET.png)
+![The architecture of the AAGNET.](docs/imgs/AAGNet.png)
 
 ## Requirements
 Anaconda and Miniconda are recommended.

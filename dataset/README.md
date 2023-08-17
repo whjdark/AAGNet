@@ -21,10 +21,11 @@ Next we need to confirm whether the generated STEPs and labels are valid:
 python crosscheck.py --dataset <your generated dataset path>
 ```
 
-![dataset](dataset.png)
+![dataset](.\dataset.png)
 Machining features used in the MFInstSeg dataset. The green faces are the non-bottom feature faces, red faces are the bottom feature faces, and brown faces are the stock faces. 
 
-![label](label_show.png)
+![label](.\label_show.png)
+
 The labels include semantic segmentation labels which are expressed in python dict form as follows: $\{F_i: C_{F_i}\}$ where the $F_i$ indicates the index of the face entity $i$ in the B-Rep and the $C_{F_i}$ indicates the class index of the face entity $F_i$. They also include instance segmentation labels, which are represented as 2D dense adjacency matrices, more details in our paper. And the bottom semantic segmentation labels, which are also expressed in python dict form as follows: $\{F_i: \text{0 or 1} \}$ if the $F_i$ is a bottom face, the label is set to 1.
 
 ## Generate geometric AAG representation
@@ -33,7 +34,7 @@ In the previous step, the generated folder includes STEPs and its instance segme
 python .\AAGExtractor.py --step_path <your STEP folder> --output <output directory> --num_workers <the number of workers>
 ```
 
-![gAAG](gAAG.png)
+![gAAG](.\gAAG.png)
 A novel B-Rep descriptor called Geometric Attributed Adjacency Graph (gAAG) is proposed, which provides the flexibility to handle varying number of entities in B-Rep models and preserves their geometric, topological information and extended attributes.
 
 ## Data Partition
