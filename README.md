@@ -37,7 +37,7 @@ Anaconda and Miniconda are recommended.
 
 ## Data Generation & Conversion
 If you just train/test/visualize on MFCAD/MFCAD++/MFInstSeg dataset, skip this.
-If you want to build your own dataset and learn more about how we create the MFInstSeg dataset, you can see [Machining Feature Instance Segmentation Dataset](dataset/readme.md).
+If you want to build your own dataset and learn more about how we create the MFInstSeg dataset, you can see [Machining Feature Instance Segmentation Dataset](dataset/README.md).
 
 ## Training
 1. Make sure you have prepared required environment.
@@ -47,7 +47,7 @@ If you want to build your own dataset and learn more about how we create the MFI
 
 ### Train on MFCAD/MFCAD++
 Make sure you have downloaded the MFCAD/MFCAD++ dataset with gAAG.
-Open [engine\seg_trainer.py](engine\seg_trainer.py), you can modify the training code and config in this file. 
+Open [engine\seg_trainer.py](engine/seg_trainer.py), you can modify the training code and config in this file. 
 ```
 Line 27 dataset_name = "MFCAD2" # option: MFCAD2 MFCAD
 Line 55 "device": 'cuda' # make sure you have CUDA or you can use 'CPU'
@@ -62,7 +62,7 @@ The logs and trained weights are placed in the 'output' folder. Our scripts supp
 
 ### Train on MFInstSeg
 Make sure you have downloaded the MFInstSeg dataset with gAAG.
-Open [engine\inst_trainer.py](engine\inst_trainer.py), you can modify the training code and config in this file. 
+Open [engine\inst_trainer.py](engine/inst_trainer.py), you can modify the training code and config in this file. 
 ```
 Line 58 "device": 'cuda', # make sure you have CUDA or you can use 'CPU'
 Line 61 "dataset": "../traning_data/data2", # where you keep the MFInstSeg dataset containing 'aag', 'labels', and 'steps' folders.
@@ -75,7 +75,7 @@ When the training ends, the results on the test set will be printed.
 
 ## Testing
 Make sure you have prepared required environment and dataset. We only provide the test script on MFInstSeg, but it's easy to make it support other dataset.
-Open [engine\inst_test.py](engine\inst_test.py)
+Open [engine\inst_test.py](engine/inst_test.py)
 ```
 Line 50 "device": 'cuda', # make sure you have CUDA or you can use 'CPU'
 Line 53 "dataset": "../traning_data/data2", # where you keep the MFInstSeg dataset containing 'aag', 'labels', and 'steps' folders.
@@ -105,10 +105,10 @@ python -m utils.qt5_visualization
 
 ## Some utils
 We provide some utils to explore our dataset.
-- [dataset explorer](utils\dataset_explorer.py)
-- [PointCloudExtractor](utils\PointCloudExtractor.py)
-- [step2stl](utils\step2stl.py)
-- [visualize_uv](utils\visualize_uv.py)
+- [dataset explorer](utils/dataset_explorer.py)
+- [PointCloudExtractor](utils/PointCloudExtractor.py)
+- [step2stl](utils/step2stl.py)
+- [visualize_uv](utils/visualize_uv.py)
 
 ## Citation
 ```
