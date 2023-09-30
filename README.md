@@ -121,7 +121,8 @@ year = {2024},
 issn = {0736-5845},
 doi = {https://doi.org/10.1016/j.rcim.2023.102661},
 url = {https://www.sciencedirect.com/science/article/pii/S0736584523001369},
-author = {Hongjin Wu and Ruoshan Lei and Yibing Peng and Liang Gao},
+author = {Hongjin Wu and Ruoshan Lei and Yibing Peng and Liang Gao}
+}
 ```
 
 ## Reference
