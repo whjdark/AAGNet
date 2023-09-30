@@ -1,6 +1,6 @@
 # AAGNET: A Graph Neural Network towards Multi-task Machining Feature Recognition
 
-This repository provides an implementation of AAGNET described in the paper: [A Graph Neural Network towards Multi-task Machining Feature Recognition]().
+This repository provides an implementation of AAGNET described in the paper: [A Graph Neural Network towards Multi-task Machining Feature Recognition](https://doi.org/10.1016/j.rcim.2023.102661).
 
 ## Abstract
 Machining feature recognition (MFR) is an essential step in computer-aided process planning (CAPP) that infers manufacturing semantics from the geometric entities in CAD models. Traditional rule-based MFR methods struggle to handle intersecting features due to the complexity of representing their variable topological structures. This motivates the development of deep-learning-based methods, which can learn from data and overcome the limitations of rule-based methods. However, some existing deep learning methods compromise geometric and topological information when using certain representations such as voxel or point cloud. To address these challenges, we propose a novel graph neural network, named AAGNet, for automatic feature recognition using a geometric Attributed Adjacency Graph (gAAG) representation that preserves topological, geometric, and extended attributes from neutral boundary representation (B-Rep) models. Furthermore, some existing methods (such as UV-Net, Hierarchical CADNet) lack the capability of machining feature instance segmentation, which is a sub-task of feature recognition that requires the network to identify different machining features and the B-Rep face entities that constitute them, and it is a crucial task for subsequent process planning. AAGNet is designed as a multi-task network that can perform semantic segmentation, instance segmentation, and bottom face segmentation simultaneously for recognizing machining features, the faces associated with those features, and their bottom faces. The AAGNet is evaluated on various open-source datasets, including MFCAD, MFCAD++, and the newly introduced MFInstSeg dataset with over 60,000 STEP files and machining feature instance labels. The experimental results demonstrate that AAGNet outperforms other state-of-the-art methods in terms of accuracy and complexity, showing its potential as a flexible solution for MFR in CAPP.
@@ -112,6 +112,16 @@ We provide some utils to explore our dataset.
 
 ## Citation
 ```
+@article{WU2024102661,
+title = {AAGNet: A graph neural network towards multi-task machining feature recognition},
+journal = {Robotics and Computer-Integrated Manufacturing},
+volume = {86},
+pages = {102661},
+year = {2024},
+issn = {0736-5845},
+doi = {https://doi.org/10.1016/j.rcim.2023.102661},
+url = {https://www.sciencedirect.com/science/article/pii/S0736584523001369},
+author = {Hongjin Wu and Ruoshan Lei and Yibing Peng and Liang Gao},
 ```
 
 ## Reference
