@@ -37,7 +37,7 @@ Anaconda and Miniconda are recommended.
 
 ## Data Generation & Conversion
 If you just train/test/visualize on MFCAD/MFCAD++/MFInstSeg dataset, skip this.
-If you want to build your own dataset and learn more about how we create the MFInstSeg dataset, you can see [Machining Feature Instance Segmentation Dataset](dataset\readme.md).
+If you want to build your own dataset and learn more about how we create the MFInstSeg dataset, you can see [Machining Feature Instance Segmentation Dataset](dataset/readme.md).
 
 ## Training
 1. Make sure you have prepared required environment.
