@@ -29,7 +29,7 @@ Anaconda and Miniconda are recommended.
 - [torchmetrics](https://github.com/Lightning-AI/torchmetrics)
 - [torch-ema](https://github.com/fadel/pytorch_ema)
 - [tqdm](https://github.com/tqdm/tqdm)
-- [occwl]([https://github.com/AutodeskAILab/occwl])
+- [occwl](https://github.com/AutodeskAILab/occwl)
 
 ## Dataset
 **MFCAD** with gAAG: https://aistudio.baidu.com/aistudio/datasetdetail/207373?lang=en.
