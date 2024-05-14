@@ -71,16 +71,19 @@ python crosscheck_MFCADPP.py --dataset <your generated dataset path>
 ```
 
 Extract labels from the STEP files of MFCAD/MFCAD++ and store them in JSON
+
 Open the ![extract_label_from_MFCADPP.py](extract_label_from_MFCADPP.py)
 ```
 Line 63    shape_dir = "steps" # path to MFCAD/MFCAD++ dataset/steps
 Line 64    graph_dir = "labels" # output dir for extracted labels
 ```
+
 the run it
 ```
 python extract_label_from_MFCADPP.py
 ```
-convert to gAAG
+
+convert STEPs to gAAG
 ```
 python .\AAGExtractor.py --step_path <your STEP folder> --output <output directory> --num_workers <the number of workers>
 ```
