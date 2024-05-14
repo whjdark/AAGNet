@@ -64,6 +64,27 @@ So, the 'test.txt' file should be like this:
 20221123_142528_14230
 ```
 
+## If you want to export data from MFCAD/MFCAD++
+Delete the corrupt samples
+```
+python crosscheck_MFCADPP.py --dataset <your generated dataset path>
+```
+
+Extract labels from the STEP files of MFCAD/MFCAD++ and store them in JSON
+Open the ![extract_label_from_MFCADPP.py](extract_label_from_MFCADPP.py)
+```
+Line 63    shape_dir = "steps" # path to MFCAD/MFCAD++ dataset/steps
+Line 64    graph_dir = "labels" # output dir for extracted labels
+```
+the run it
+```
+python extract_label_from_MFCADPP.py
+```
+convert to gAAG
+```
+python .\AAGExtractor.py --step_path <your STEP folder> --output <output directory> --num_workers <the number of workers>
+```
+
 ## Reference
 This dataset generation code is based on the following papers:
 - [Hierarchical CADNet: Learning from B-Reps for Machining Feature Recognition](https://gitlab.com/qub_femg/machine-learning/hierarchical-cadnet)
