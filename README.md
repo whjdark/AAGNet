@@ -32,9 +32,9 @@ Anaconda and Miniconda are recommended.
 - [occwl](https://github.com/AutodeskAILab/occwl)
 
 ## Dataset
-**MFCAD** with gAAG: https://aistudio.baidu.com/aistudio/datasetdetail/207373?lang=en.
-**MFCAD++** with gAAG: https://aistudio.baidu.com/aistudio/datasetdetail/207819?lang=en. (Note that since some STEP models in MFCAD++ have some topological errors, we performed data cleaning to obtain a better quality training set. Therefore, the number of our training, validation and testing samples is slightly smaller than the original MFCAD++, but the impact on the experimental results is negligible.)
-**MFInstSeg**: https://aistudio.baidu.com/aistudio/datasetdetail/211864?lang=en.
+- **MFCAD** with gAAG: https://aistudio.baidu.com/aistudio/datasetdetail/207373?lang=en.
+- **MFCAD++** with gAAG: https://aistudio.baidu.com/aistudio/datasetdetail/207819?lang=en. (Note that since some STEP models in MFCAD++ have some topological errors, we performed data cleaning to obtain a better quality training set. Therefore, the number of our training, validation and testing samples is slightly smaller than the original MFCAD++, but the impact on the experimental results is negligible.)
+- **MFInstSeg**: https://aistudio.baidu.com/aistudio/datasetdetail/211864?lang=en.
 
 ## Data Generation & Conversion
 If you just train/test/visualize on MFCAD/MFCAD++/MFInstSeg dataset, skip this.
