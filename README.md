@@ -16,9 +16,10 @@ Anaconda and Miniconda are recommended.
 
 You can prepare the environment by 
 ```
-conda env create -f environment.yml -n pyocc (your env name)
+conda env create -f environment.yml -n pyocc(your env name)
 ```
 
+Or you can install the following packages by yourself:
 - python=3.10
 - [pytorch](https://pytorch.org/get-started/locally/)
 - [DGL](https://docs.dgl.ai/)
