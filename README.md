@@ -14,6 +14,11 @@ This paper proposes a novel GNN model, named AAGNet, which is designed to perfor
 ## Requirements
 Anaconda and Miniconda are recommended.
 
+You can prepare the environment by 
+```
+conda env create -f environment.yml -n pyocc (your env name)
+```
+
 - python=3.10
 - [pytorch](https://pytorch.org/get-started/locally/)
 - [DGL](https://docs.dgl.ai/)
