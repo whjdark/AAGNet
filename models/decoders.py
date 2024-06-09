@@ -4,9 +4,7 @@ import torch.nn.functional as F
 import dgl
 from torch.nn.utils.rnn import pad_sequence
 
-'''
-obsoleted
-'''
+
 
 class InnerProductDecoder(nn.Module):
     def __init__(self, Wq=nn.Identity(), Wk=nn.Identity(), return_feat=False, projector=None):
