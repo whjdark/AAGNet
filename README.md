@@ -25,7 +25,7 @@ Or you can install the following packages by yourself:
 - [DGL](https://docs.dgl.ai/)
 - scipy
 - numpy
-- [numba](https://numba.pydata.org/numba-doc/latest/user/installing.html)
+- [numba](https://numba.readthedocs.io/en/stable/)
 - h5py
 - [pythonocc-core=7.5.1](https://github.com/tpaviot/pythonocc-core)
 - occt=7.5.1
@@ -35,7 +35,7 @@ Or you can install the following packages by yourself:
 - [torchmetrics](https://github.com/Lightning-AI/torchmetrics)
 - [torch-ema](https://github.com/fadel/pytorch_ema)
 - [tqdm](https://github.com/tqdm/tqdm)
-- [occwl](https://github.com/AutodeskAILab/occwl)
+- [occwl](https://github.com/AutodeskAILab/occwl) (you can directly pip setup.py install from this repo, rather than conda)
 
 ## Dataset
 - **MFCAD** with gAAG: https://aistudio.baidu.com/aistudio/datasetdetail/207373?lang=en.
