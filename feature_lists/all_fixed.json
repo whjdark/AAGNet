@@ -1,0 +1,29 @@
+{
+    "face_attributes": [
+        "Plane",
+        "Cylinder",
+        "Cone",
+        "SphereFaceAttribute",
+        "TorusFaceAttribute",
+        "FaceAreaAttribute",
+        "RationalNurbsFaceAttribute",
+        "FaceCentroidAttribute"
+    ],
+    "edge_attributes": [
+        "Concave edge",
+        "Convex edge",
+        "Smooth",
+        "EdgeLengthAttribute",
+        "CircularEdgeAttribute",
+        "ClosedEdgeAttribute",
+        "EllipticalEdgeAttribute",
+        "NonRationalBSplineEdgeAttribute",
+        "RationalBSplineEdgeAttribute",
+        "StraightEdgeAttribute",
+    ],
+    "UV-grid":{
+        "num_srf_u": 5,
+        "num_srf_v": 5,
+        "num_crv_u": 0
+    }
+}
